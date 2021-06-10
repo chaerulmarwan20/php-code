@@ -64,7 +64,7 @@ class Person extends ParentPerson {
     echo "Person $this->name is running" . PHP_EOL;
   }
 
-  // dua function di bawah ini akan mengoverride atau menimpa dua function yang ada di trait
+  // dua function di bawah ini akan mengoverride atau menimpa dua function yang ada di trait dan di parentnya
   // public function goodBye(?string $name): void
   // {
   //   echo "Good bye in Person" . PHP_EOL;
